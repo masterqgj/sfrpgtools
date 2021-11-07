@@ -11462,7 +11462,7 @@ var equipmentData = {
             "speedadj": "-5",
             "type": "Heavy",
             "upgradeslots": "0"
-		}
+		},
         "Formian plate - warrior": {
             "armorcheck": "-3",
             "bulk": "3",
@@ -11477,7 +11477,7 @@ var equipmentData = {
             "speedadj": "-5",
             "type": "Heavy",
             "upgradeslots": "0"
-		}		
+		},		
         "Formian plate - taskmaster": {
             "armorcheck": "-4",
             "bulk": "3",
@@ -11492,7 +11492,7 @@ var equipmentData = {
             "speedadj": "-5",
             "type": "Heavy",
             "upgradeslots": "1"
-		}		
+		},		
         "Formian plate - myrmarch": {
             "armorcheck": "-4",
             "bulk": "3",
@@ -11507,7 +11507,7 @@ var equipmentData = {
             "speedadj": "-5",
             "type": "Heavy",
             "upgradeslots": "3"
-		}				
+		},				
         "Formian hide - advanced": {
             "armorcheck": "-3",
             "bulk": "2",
@@ -26860,7 +26860,7 @@ var equipmentData = {
         }, 
         "Plasma diverter": {
             "bulk": "1", 
-			"capacity": "-"
+			"capacity": "-",
             "cost": "4,300", 
             "hands": "-", 
             "level": "6", 
