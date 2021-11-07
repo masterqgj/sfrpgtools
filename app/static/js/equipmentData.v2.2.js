@@ -11,7 +11,7 @@ var equipmentData = {
         "Antitoxin membrane": {
             "cost": "3,000",
             "level": "5",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.11",
             "system": "Skin",
             "type": "Cybernetic"
@@ -203,7 +203,7 @@ var equipmentData = {
         "Ocucloak processor": {
             "cost": "2,200",
             "level": "4",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.103",
             "system": "Brain",
             "type": "Biotech"
@@ -275,7 +275,7 @@ var equipmentData = {
         "Shortwave receiver-transmitter": {
             "cost": "6,500",
             "level": "7",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.11",
             "system": "Brain",
             "type": "Cybernetic"
@@ -339,7 +339,7 @@ var equipmentData = {
         "Voice amplifier": {
             "cost": "125",
             "level": "1",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.11",
             "system": "Throat",
             "type": "Cybernetic"
@@ -2451,7 +2451,7 @@ var equipmentData = {
             "level": "4",
             "cost": "2,000",
             "range": "-",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "powered (capacity 20-usage 1), reach",
             "sourcepage": "p.41"
         },
@@ -2465,7 +2465,7 @@ var equipmentData = {
             "level": "16",
             "cost": "160,000",
             "range": "-",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "powered (capacity 20-usage 1), reach",
             "sourcepage": "p.41"
         },
@@ -2479,7 +2479,7 @@ var equipmentData = {
             "level": "8",
             "cost": "9,000",
             "range": "-",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "powered (capacity 20-usage 1), reach",
             "sourcepage": "p.41"
         },
@@ -2493,7 +2493,7 @@ var equipmentData = {
             "level": "19",
             "cost": "525,000",
             "range": "-",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "powered (capacity 20-usage 1), reach",
             "sourcepage": "p.41"
         },
@@ -2507,7 +2507,7 @@ var equipmentData = {
             "level": "7",
             "cost": "6,250",
             "range": "-",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "powered (capacity 20-usage 1)",
             "sourcepage": "p.45"
         },
@@ -2521,7 +2521,7 @@ var equipmentData = {
             "level": "2",
             "cost": "750",
             "range": "-",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "powered (capacity 20-usage 1)",
             "sourcepage": "p.45"
         },
@@ -2535,7 +2535,7 @@ var equipmentData = {
             "level": "13",
             "cost": "49,000",
             "range": "-",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "powered (capacity 40-usage 2)",
             "sourcepage": "p.45"
         },
@@ -2549,7 +2549,7 @@ var equipmentData = {
             "level": "18",
             "cost": "375,000",
             "range": "-",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "powered (capacity 40-usage 2)",
             "sourcepage": "p.45"
         },
@@ -2697,7 +2697,7 @@ var equipmentData = {
             "special": "powered (capacity 20-usage 1), unwieldy",
             "wield": "twohanded"
         },
-        "Doshko - Tactical": {
+        "Doshko - Tactical XXX": {
             "bulk": "1",
             "cost": "240",
             "critical": "-",
@@ -2709,6 +2709,30 @@ var equipmentData = {
             "special": "analog, unwieldy",
             "wield": "twohanded"
         },
+        "Testitem": {
+            "bulk": "1",
+            "cost": "10",
+            "critical": "-",
+            "damage": "1d12",
+            "damagetype": "p",
+            "sourcebook": "aa4",
+            "level": "1",
+            "sourcepage": "p.168",
+            "special": "analog, unwieldy",
+            "wield": "twohanded"
+        },		
+        "Testitem 2": {
+            "bulk": "1",
+            "cost": "100",
+            "critical": "-",
+            "damage": "1d12",
+            "damagetype": "p",
+            "sourcebook": "aa4",
+            "level": "1",
+            "sourcepage": "p.168",
+            "special": "analog, unwieldy",
+            "wield": "twohanded"
+        },		
         "Doshko - Ultrathin": {
             "bulk": "1",
             "cost": "24600",
@@ -6417,7 +6441,7 @@ var equipmentData = {
             "bulk": "2",
             "chargescartridges": "40",
             "cost": "280",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "level": "3",
             "sourcepage": "p.109",
             "special": "-"
@@ -6426,7 +6450,7 @@ var equipmentData = {
             "bulk": "1",
             "chargescartridges": "20",
             "cost": "60",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "level": "1",
             "sourcepage": "p.109",
             "special": "-"
@@ -7688,7 +7712,7 @@ var equipmentData = {
             "level": "2",
             "cost": "600",
             "range": "-",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "Analog",
             "sourcepage": "p.31",
             "usage": "-"
@@ -7704,7 +7728,7 @@ var equipmentData = {
             "level": "7",
             "cost": "5,500",
             "range": "-",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "Analog",
             "sourcepage": "p.31",
             "usage": "-"
@@ -7720,7 +7744,7 @@ var equipmentData = {
             "level": "12",
             "cost": "32,000",
             "range": "-",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "Analog",
             "sourcepage": "p.31",
             "usage": "-"
@@ -7736,7 +7760,7 @@ var equipmentData = {
             "level": "17",
             "cost": "230,000",
             "range": "-",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "Analog",
             "sourcepage": "p.31",
             "usage": "-"
@@ -9643,7 +9667,7 @@ var equipmentData = {
         "Fusion Seal - Nanite": {
             "bulk": "-",
             "description": "The nanite fusion gives a weapon the nanite burst critical effect. When this critical effect is triggered, a cloud of nanites detaches from the blade and begins devouring the target, swarming over it and dismantling it at the molecular level. In this situation, the weapon deals double damage as normal, but all of the damage is treated as acid damage, and the target must succeed at a Fortitude saving throw (see page 181 of the Starfinder Core Rulebook for how to calculate the DC) or be nauseated for 1 round. When you score a critical hit with a weapon that has multiple critical hit effects, you can apply only one of those critical hit effects of your choice. Only melee weapons can have this fusion.",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "level": "6",
             "sourcepage": "p.67"
         },
@@ -11279,7 +11303,7 @@ var equipmentData = {
             "eac": "15",
             "cost": "18,750",
             "bulk": "3",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.7",
             "speedadj": "-10",
             "maxdex": "3"
@@ -11292,7 +11316,7 @@ var equipmentData = {
             "eac": "5",
             "cost": "1,650",
             "bulk": "3",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.7",
             "speedadj": "-10",
             "maxdex": "2"
@@ -11305,7 +11329,7 @@ var equipmentData = {
             "eac": "2",
             "cost": "800",
             "bulk": "1",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.73",
             "speedadj": "-5",
             "maxdex": "3"
@@ -11318,7 +11342,7 @@ var equipmentData = {
             "eac": "8",
             "cost": "4,820",
             "bulk": "1",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.73",
             "speedadj": "-5",
             "maxdex": "4"
@@ -11331,7 +11355,7 @@ var equipmentData = {
             "eac": "17",
             "cost": "76,000",
             "bulk": "1",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.73",
             "speedadj": "-5",
             "maxdex": "5"
@@ -11344,7 +11368,7 @@ var equipmentData = {
             "eac": "13",
             "cost": "17,100",
             "bulk": "1",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.73",
             "speedadj": "-5",
             "maxdex": "4"
@@ -11357,7 +11381,7 @@ var equipmentData = {
             "eac": "23",
             "cost": "371,000",
             "bulk": "1",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.73",
             "speedadj": "-5",
             "maxdex": "5"
@@ -12455,7 +12479,7 @@ var equipmentData = {
             "level": "4",
             "cost": "2,000",
             "range": "30",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "Analog, boost 1d4, line, unwieldy",
             "sourcepage": "p.109",
             "usage": "4"
@@ -12471,7 +12495,7 @@ var equipmentData = {
             "level": "19",
             "cost": "550,000",
             "range": "50",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "Analog, boost 1d10, line, unwieldy",
             "sourcepage": "p.109",
             "usage": "10"
@@ -12487,7 +12511,7 @@ var equipmentData = {
             "level": "14",
             "cost": "75,000",
             "range": "50",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "Analog, boost 1d8, line, unwieldy",
             "type": "Heavy",
             "sourcepage": "p.109",
@@ -12504,7 +12528,7 @@ var equipmentData = {
             "level": "9",
             "cost": "13,000",
             "range": "30",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "Analog, boost 1d6, line, unwieldy",
             "sourcepage": "p.109",
             "usage": "5"
@@ -15459,21 +15483,21 @@ var equipmentData = {
         "Eoxian wrackstaff": {
             "bulk": "1",
             "cost": "48,500",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "level": "13",
             "sourcepage": "p.81"
         },
         "Shadowstaff": {
             "bulk": "1",
             "cost": "10,000",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "level": "8",
             "sourcepage": "p.37"
         },
         "Shadowstaff - lesser": {
             "bulk": "1",
             "cost": "500",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "level": "2",
             "sourcepage": "p.37"
         },
@@ -16137,7 +16161,7 @@ var equipmentData = {
             "eac": "7",
             "cost": "7,500",
             "bulk": "1",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.7",
             "speedadj": "0",
             "maxdex": "5"
@@ -17281,7 +17305,7 @@ var equipmentData = {
             "level": "10",
             "cost": "21,000",
             "range": "100",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "-",
             "sourcepage": "p.7",
             "usage": "1"
@@ -17297,7 +17321,7 @@ var equipmentData = {
             "level": "7",
             "cost": "7,500",
             "range": "60",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "Automatic",
             "sourcepage": "p.7",
             "usage": "1"
@@ -17313,7 +17337,7 @@ var equipmentData = {
             "level": "3",
             "cost": "1,400",
             "range": "80",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "Automatic",
             "sourcepage": "p.7",
             "usage": "1"
@@ -20221,7 +20245,7 @@ var equipmentData = {
             "usage": "Worn (helmet)",
             "bulk": "L",
             "cost": "3,000",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.13",
             "level": "5"
         },
@@ -20229,7 +20253,7 @@ var equipmentData = {
             "usage": "Consumable",
             "bulk": "-",
             "cost": "350",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.71",
             "level": "4"
         },
@@ -20237,7 +20261,7 @@ var equipmentData = {
             "usage": "Worn (gloves)",
             "bulk": "L",
             "cost": "250",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.79",
             "level": "1"
         },
@@ -20245,7 +20269,7 @@ var equipmentData = {
             "usage": "Consumable",
             "bulk": "-",
             "cost": "5,500",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.71",
             "level": "12"
         },
@@ -20253,7 +20277,7 @@ var equipmentData = {
             "usage": "Worn (goggles)",
             "bulk": "L",
             "cost": "9,000",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.25",
             "level": "8"
         },
@@ -20261,7 +20285,7 @@ var equipmentData = {
             "usage": "Consumable",
             "bulk": "-",
             "cost": "1,500",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.71",
             "level": "8"
         },
@@ -20269,7 +20293,7 @@ var equipmentData = {
             "usage": "Consumable",
             "bulk": "-",
             "cost": "500",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.23",
             "level": "5"
         },
@@ -20277,7 +20301,7 @@ var equipmentData = {
             "usage": "Passive",
             "bulk": "-",
             "cost": "7,500",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.7",
             "level": "7"
         },
@@ -20285,7 +20309,7 @@ var equipmentData = {
             "usage": "Worn (jacket)",
             "bulk": "L",
             "cost": "600",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.79",
             "level": "2"
         },
@@ -20293,7 +20317,7 @@ var equipmentData = {
             "usage": "Worn (boots)",
             "bulk": "L",
             "cost": "2,500",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "sourcepage": "p.79",
             "level": "4"
         },
@@ -24660,7 +24684,7 @@ var equipmentData = {
             "level": "5",
             "cost": "3,750",
             "range": "70",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "Sniper (500), unwieldy",
             "sourcepage": "p.99",
             "usage": "1"
@@ -24676,7 +24700,7 @@ var equipmentData = {
             "level": "10",
             "cost": "17,000",
             "range": "80",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "Sniper (750), unwieldy",
             "sourcepage": "p.99",
             "usage": "1"
@@ -24692,7 +24716,7 @@ var equipmentData = {
             "level": "20",
             "cost": "725,000",
             "range": "80",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "Sniper (1000), unwieldy",
             "sourcepage": "p.99",
             "usage": "1"
@@ -24708,7 +24732,7 @@ var equipmentData = {
             "level": "1",
             "cost": "350",
             "range": "70",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "Sniper (250), unwieldy",
             "sourcepage": "p.99",
             "usage": "1"
@@ -24724,7 +24748,7 @@ var equipmentData = {
             "level": "15",
             "cost": "110,000",
             "range": "80",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "special": "Sniper (1000), unwieldy",
             "sourcepage": "p.99",
             "usage": "1"
@@ -27350,7 +27374,7 @@ var equipmentData = {
             "charge capacity": "20",
             "charge usage": "5",
             "cost": "50000",
-            "sourcebook": "aa",
+            "sourcebook": "aa1",
             "level": "13",
             "sourcepage": "p.57"
         },

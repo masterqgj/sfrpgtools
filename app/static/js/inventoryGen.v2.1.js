@@ -86,7 +86,10 @@ function generateInventory() {
 
   //replace book names with shortened name
   sourcebooks = sourcebooks.replace("Core Rulebook","crb");
-  sourcebooks = sourcebooks.replace("Alien Archive","aa");
+  sourcebooks = sourcebooks.replace("Alien Archive 1","aa1");
+  sourcebooks = sourcebooks.replace("Alien Archive 2","aa2");
+  sourcebooks = sourcebooks.replace("Alien Archive 3","aa3");
+  sourcebooks = sourcebooks.replace("Alien Archive 4","aa4");  	  
   sourcebooks = sourcebooks.replace("Pact Worlds","pw");
   sourcebooks = sourcebooks.replace("Armory","arm");
   sourcebooks = sourcebooks.replace("Dead Suns (1-6)","DS1,DS2,DS3,DS4,DS5,DS6");
