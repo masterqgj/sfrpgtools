@@ -1,6 +1,30 @@
 var equipmentData = {
     "Augmentations": {
-        "Adaptive Biochains": {
+        "Glass skin": {
+            "cost": "2,000",
+            "level": "4",
+            "sourcebook": "aa2",
+            "sourcepage": "65",
+            "system": "skin",
+            "type": "Biotech"
+        },        
+        "Shotalashu link cortex": {
+            "cost": "2,500",
+            "level": "4",
+            "sourcebook": "aa2",
+            "sourcepage": "p.115",
+            "system": "brain",
+            "type": "Biotech"
+        },        
+        "Lightwarp inlay": {
+            "cost": "5,000",
+            "level": "6",
+            "sourcebook": "crb",
+            "sourcepage": "p.211",
+            "system": "upgrade",
+            "type": "-"
+        },		
+		"Adaptive Biochains": {
             "cost": "Varies",
             "level": "3",
             "sourcebook": "crb",
@@ -2441,6 +2465,118 @@ var equipmentData = {
         }
     },
     "Advanced Melee Weapons": {
+        "Heat-amp gauntlet, mk 1": {
+            "bulk": "1",
+            "Category": "Uncategorized",
+            "critical": "burn 1d4",
+            "damage": "1d6",
+            "damagetype": "B & F",
+            "wield": "onehanded",
+            "level": "2",
+            "cost": "500",
+            "range": "-",
+            "sourcebook": "aa2",
+            "special": "powered (capacity 20, usage 1)",
+            "sourcepage": "p.107"
+        },
+        "Heat-amp gauntlet, mk 2": {
+            "bulk": "1",
+            "Category": "Uncategorized",
+            "critical": "burn 1d6",
+            "damage": "2d6",
+            "damagetype": "B & F",
+            "wield": "onehanded",
+            "level": "7",
+            "cost": "7,500",
+            "range": "-",
+            "sourcebook": "aa2",
+            "special": "powered (capacity 20, usage 1)",
+            "sourcepage": "p.107"
+        },		
+        "Heat-amp gauntlet, mk 3": {
+            "bulk": "1",
+            "Category": "Uncategorized",
+            "critical": "burn 2d6",
+            "damage": "5d6",
+            "damagetype": "B & F",
+            "wield": "onehanded",
+            "level": "12",
+            "cost": "33,200",
+            "range": "-",
+            "sourcebook": "aa2",
+            "special": "powered (capacity 20, usage 1)",
+            "sourcepage": "p.107"
+        },
+        "Heat-amp gauntlet, mk 4": {
+            "bulk": "1",
+            "Category": "Uncategorized",
+            "critical": "burn 2d8",
+            "damage": "10d6",
+            "damagetype": "B & F",
+            "wield": "onehanded",
+            "level": "16",
+            "cost": "178,250",
+            "range": "-",
+            "sourcebook": "aa2",
+            "special": "powered (capacity 20, usage 1)",
+            "sourcepage": "p.107"
+        },		
+        "Phasic scythe, monophonic": {
+            "bulk": "1",
+            "Category": "Uncategorized",
+            "critical": "wound",
+            "damage": "3d4",
+            "damagetype": "So",
+            "wield": "twohanded",
+            "level": "7",
+            "cost": "6,250",
+            "range": "-",
+            "sourcebook": "aa2",
+            "special": "Penetrating, powered (capacity 40, usage 4)",
+            "sourcepage": "p.87"
+        },
+        "Phasic scythe, harmonic": {
+            "bulk": "1",
+            "Category": "Uncategorized",
+            "critical": "wound",
+            "damage": "6d4",
+            "damagetype": "So",
+            "wield": "twohanded",
+            "level": "11",
+            "cost": "25,000",
+            "range": "-",
+            "sourcebook": "aa2",
+            "special": "Penetrating, powered (capacity 40, usage 45",
+            "sourcepage": "p.87"
+        },
+        "Phasic scythe, polyphonic": {
+            "bulk": "1",
+            "Category": "Uncategorized",
+            "critical": "wound",
+            "damage": "6d8",
+            "damagetype": "So",
+            "wield": "twohanded",
+            "level": "15",
+            "cost": "112,500",
+            "range": "-",
+            "sourcebook": "aa2",
+            "special": "Penetrating, powered (capacity 80, usage 8)",
+            "sourcepage": "p.87"
+        },
+        "Phasic scythe, multiphonic": {
+            "bulk": "1",
+            "Category": "Uncategorized",
+            "critical": "wound",
+            "damage": "10d8",
+            "damagetype": "So",
+            "wield": "twohanded",
+            "level": "19",
+            "cost": "562,500",
+            "range": "-",
+            "sourcebook": "aa2",
+            "special": "Penetrating, powered (capacity 100, usage 10)",
+            "sourcepage": "p.87"
+        },		
         "Dragonglaive - basic": {
             "bulk": "2",
             "Category": "Uncategorized",
@@ -2709,30 +2845,6 @@ var equipmentData = {
             "special": "analog, unwieldy",
             "wield": "twohanded"
         },
-        "Testitem": {
-            "bulk": "1",
-            "cost": "10",
-            "critical": "-",
-            "damage": "1d12",
-            "damagetype": "p",
-            "sourcebook": "aa4",
-            "level": "1",
-            "sourcepage": "p.168",
-            "special": "analog, unwieldy",
-            "wield": "twohanded"
-        },		
-        "Testitem 2": {
-            "bulk": "1",
-            "cost": "100",
-            "critical": "-",
-            "damage": "1d12",
-            "damagetype": "p",
-            "sourcebook": "aa4",
-            "level": "1",
-            "sourcepage": "p.168",
-            "special": "analog, unwieldy",
-            "wield": "twohanded"
-        },		
         "Doshko - Ultrathin": {
             "bulk": "1",
             "cost": "24600",
@@ -6655,6 +6767,33 @@ var equipmentData = {
         }
     },
     "Armor Upgrades": {
+        "Adaptive defense module, mk1": {
+            "armortype": "any", 
+            "bulk": "-", 
+            "cost": "6,500", 
+            "level": "7", 
+            "slots": "1", 
+            "sourcebook": "aa2", 
+            "sourcepage": "p.7"
+        }, 
+        "Adaptive defense module, mk2": {
+            "armortype": "any", 
+            "bulk": "-", 
+            "cost": "75,000", 
+            "level": "14", 
+            "slots": "1", 
+            "sourcebook": "aa2", 
+            "sourcepage": "p.7"
+        }, 
+        "Adaptive defense module, mk3": {
+            "armortype": "any", 
+            "bulk": "-", 
+            "cost": "250,000", 
+            "level": "17", 
+            "slots": "1", 
+            "sourcebook": "aa2", 
+            "sourcepage": "p.7"
+        }, 
         "Absorption shield": {
             "armortype": "Heavy, Powered", 
             "bulk": "1", 
@@ -7626,6 +7765,51 @@ var equipmentData = {
             "type": "Basic Melee",
             "wield": "onehanded"
         },
+        "Dueling sword, converted": {
+            "bulk": "L",
+            "category": "Uncategorized",
+            "cost": "2,100",
+            "critical": "-",
+            "damage": "1d8",
+            "damage type": "S",
+            "level": "4",
+            "range": "-",
+            "sourcebook": "aa2",
+            "sourcepage": "p.23",
+            "special": "Analog",
+            "type": "Basic Melee",
+            "wield": "onehanded"
+        },		
+        "Dueling sword, officer": {
+            "bulk": "L",
+            "category": "Uncategorized",
+            "cost": "18,795",
+            "critical": "-",
+            "damage": "3d4",
+            "damage type": "S",
+            "level": "10",
+            "range": "-",
+            "sourcebook": "aa2",
+            "sourcepage": "p.23",
+            "special": "Analog",
+            "type": "Basic Melee",
+            "wield": "onehanded"
+        },				
+        "Dueling sword, admiral": {
+            "bulk": "L",
+            "category": "Uncategorized",
+            "cost": "255,150",
+            "critical": "-",
+            "damage": "8d6",
+            "damage type": "S",
+            "level": "17",
+            "range": "-",
+            "sourcebook": "aa2",
+            "sourcepage": "p.23",
+            "special": "Analog",
+            "type": "Basic Melee",
+            "wield": "onehanded"
+        },				
         "Sword cane - dimensional slice": {
             "bulk": "L",
             "category": "Uncategorized",
@@ -8053,6 +8237,66 @@ var equipmentData = {
             "special": "analog, block, thrown (20 ft.)",
             "wield": "twohanded"
         },
+        "Trident, tactical": {
+            "bulk": "1",
+            "cost": "750",
+            "critical": "-",
+            "damage": "1d8",
+            "damagetype": "p",
+            "sourcebook": "aa2",
+            "level": "2",
+            "sourcepage": "p.37",
+            "special": "analog, thrown (20 ft.)",
+            "wield": "twohanded"
+        },		
+        "Trident, sintered": {
+            "bulk": "1",
+            "cost": "6,100",
+            "critical": "-",
+            "damage": "2d8",
+            "damagetype": "p",
+            "sourcebook": "aa2",
+            "level": "7",
+            "sourcepage": "p.37",
+            "special": "analog, thrown (20 ft.)",
+            "wield": "twohanded"
+        },				
+        "Trident, ultrathin": {
+            "bulk": "1",
+            "cost": "36,600",
+            "critical": "-",
+            "damage": "4d8",
+            "damagetype": "p",
+            "sourcebook": "aa2",
+            "level": "12",
+            "sourcepage": "p.37",
+            "special": "analog, thrown (20 ft.)",
+            "wield": "twohanded"
+        },		
+        "Trident, moecular rift": {
+            "bulk": "1",
+            "cost": "219,600",
+            "critical": "-",
+            "damage": "10d8",
+            "damagetype": "p",
+            "sourcebook": "aa2",
+            "level": "17",
+            "sourcepage": "p.37",
+            "special": "analog, thrown (20 ft.)",
+            "wield": "twohanded"
+        },		
+        "Trident, dimensional slice": {
+            "bulk": "1",
+            "cost": "768,600",
+            "critical": "-",
+            "damage": "14d8",
+            "damagetype": "p",
+            "sourcebook": "aa2",
+            "level": "20",
+            "sourcepage": "p.37",
+            "special": "analog, thrown (20 ft.)",
+            "wield": "twohanded"
+        },				
         "Staff - Battle": {
             "bulk": "1",
             "cost": "80",
@@ -9186,6 +9430,13 @@ var equipmentData = {
         }
     },
     "Drugs Medicinals And Poisons": {
+        "Greater dust manta toxin": {
+            "bulk": "-",
+            "cost": "150",
+            "sourcebook": "aa2",
+            "level": "1",
+            "sourcepage": "p.47"
+        },
         "Analgesic (Tier 1)": {
             "bulk": "-",
             "cost": "150",
@@ -9213,6 +9464,13 @@ var equipmentData = {
             "sourcebook": "crb",
             "level": "15",
             "sourcepage": "p.232"
+        },
+        "Dreamsnuff": {
+            "bulk": "-",
+            "cost": "1,500",
+            "sourcebook": "aa2",
+            "level": "8",
+            "sourcepage": "p.45"
         },
         "Antitoxin (Tier 1)": {
             "bulk": "-",
@@ -11190,6 +11448,66 @@ var equipmentData = {
         }
     },
     "Heavy Armor": {
+        "Formian plate - worker": {
+            "armorcheck": "-3",
+            "bulk": "3",
+            "cost": "480",
+            "eac": "3",
+            "kac": "6",
+            "level": "2",
+            "maxdex": "1",
+            "sourcebook": "aa2",
+            "sourcepage": "53",
+            "special": "-",
+            "speedadj": "-5",
+            "type": "Heavy",
+            "upgradeslots": "0"
+		}
+        "Formian plate - warrior": {
+            "armorcheck": "-3",
+            "bulk": "3",
+            "cost": "1,830",
+            "eac": "5",
+            "kac": "8",
+            "level": "4",
+            "maxdex": "1",
+            "sourcebook": "aa2",
+            "sourcepage": "53",
+            "special": "-",
+            "speedadj": "-5",
+            "type": "Heavy",
+            "upgradeslots": "0"
+		}		
+        "Formian plate - taskmaster": {
+            "armorcheck": "-4",
+            "bulk": "3",
+            "cost": "42,000",
+            "eac": "16",
+            "kac": "19",
+            "level": "12",
+            "maxdex": "3",
+            "sourcebook": "aa2",
+            "sourcepage": "53",
+            "special": "-",
+            "speedadj": "-5",
+            "type": "Heavy",
+            "upgradeslots": "1"
+		}		
+        "Formian plate - myrmarch": {
+            "armorcheck": "-4",
+            "bulk": "3",
+            "cost": "557,000",
+            "eac": "24",
+            "kac": "27",
+            "level": "19",
+            "maxdex": "3",
+            "sourcebook": "aa2",
+            "sourcepage": "53",
+            "special": "-",
+            "speedadj": "-5",
+            "type": "Heavy",
+            "upgradeslots": "3"
+		}				
         "Formian hide - advanced": {
             "armorcheck": "-3",
             "bulk": "2",
@@ -11205,6 +11523,51 @@ var equipmentData = {
             "type": "Heavy",
             "upgradeslots": "3"
         },
+        "Fossilwrap I": {
+            "armorcheck": "-2",
+            "bulk": "2",
+            "cost": "3,100",
+            "eac": "9",
+            "kac": "9",
+            "level": "5",
+            "maxdex": "2",
+            "sourcebook": "aa2",
+            "sourcepage": "p.23",
+            "special": "-",
+            "speedadj": "-5",
+            "type": "Heavy",
+            "upgradeslots": "1"
+        },		
+        "Fossilwrap II": {
+            "armorcheck": "-2",
+            "bulk": "2",
+            "cost": "55,000",
+            "eac": "19",
+            "kac": "19",
+            "level": "13",
+            "maxdex": "4",
+            "sourcebook": "aa2",
+            "sourcepage": "p.23",
+            "special": "-",
+            "speedadj": "-5",
+            "type": "Heavy",
+            "upgradeslots": "5"
+        },				
+        "Fossilwrap III": {
+            "armorcheck": "-2",
+            "bulk": "2",
+            "cost": "645,000",
+            "eac": "25",
+            "kac": "25",
+            "level": "19",
+            "maxdex": "6",
+            "sourcebook": "aa2",
+            "sourcepage": "p.23",
+            "special": "-",
+            "speedadj": "-5",
+            "type": "Heavy",
+            "upgradeslots": "6"
+        },				
         "Formian hide - basic": {
             "armorcheck": "-3",
             "bulk": "2",
@@ -15410,6 +15773,27 @@ var equipmentData = {
         }
     },
     "Hybrid Items": {
+        "Mi-Go brain cylinder": {
+            "bulk": "1",
+            "cost": "10,000",
+            "level": "8",
+            "sourcebook": "aa2",
+            "sourcepage": "p.85"
+        },
+        "Mi-Go hollowskin": {
+            "bulk": "l",
+            "cost": "5,500",
+            "level": "7",
+            "sourcebook": "aa2",
+            "sourcepage": "p.85"
+        },
+        "Shotalashu saddle": {
+            "bulk": "-",
+            "cost": "300",
+            "level": "1",
+            "sourcebook": "aa2",
+            "sourcepage": "p.115"
+        },
         "Ablative insulation - mk 1": {
             "bulk": "L",
             "cost": "350",
@@ -16063,7 +16447,82 @@ var equipmentData = {
         }
     },
     "Light Armor": {
-        "Hardened resin": {
+        "Dust manta hide, basic": {
+            "armorcheck": "-",
+            "bulk": "l",
+            "cost": "5,150",
+            "eac": "5",
+            "kac": "7",
+            "level": "6",
+            "maxdex": "5",
+            "sourcebook": "aa2",
+            "sourcepage": "p.47",
+            "special": "-",
+            "speedadj": "0",
+            "type": "Light",
+            "upgradeslots": "0"
+        },
+        "Dust manta hide, advanced": {
+            "armorcheck": "-",
+            "bulk": "l",
+            "cost": "43,2500",
+            "eac": "15",
+            "kac": "16",
+            "level": "12",
+            "maxdex": "6",
+            "sourcebook": "aa2",
+            "sourcepage": "p.23",
+            "special": "-",
+            "speedadj": "0",
+            "type": "Light",
+            "upgradeslots": "0"
+        },
+		"Skitterhide I": {
+            "armorcheck": "-",
+            "bulk": "l",
+            "cost": "1,200",
+            "eac": "2",
+            "kac": "3",
+            "level": "3",
+            "maxdex": "5",
+            "sourcebook": "aa2",
+            "sourcepage": "p.23",
+            "special": "-",
+            "speedadj": "0",
+            "type": "Light",
+            "upgradeslots": "0"
+        },
+        "Skitterhide II": {
+            "armorcheck": "-",
+            "bulk": "l",
+            "cost": "12,500",
+            "eac": "10",
+            "kac": "11",
+            "level": "9",
+            "maxdex": "7",
+            "sourcebook": "aa2",
+            "sourcepage": "p.23",
+            "special": "-",
+            "speedadj": "0",
+            "type": "Light",
+            "upgradeslots": "2"
+        },        
+        "Skitterhide III": {
+            "armorcheck": "-",
+            "bulk": "l",
+            "cost": "144,000",
+            "eac": "19",
+            "kac": "19",
+            "level": "16",
+            "maxdex": "8",
+            "sourcebook": "aa2",
+            "sourcepage": "p.23",
+            "special": "-",
+            "speedadj": "0",
+            "type": "Light",
+            "upgradeslots": "4"
+        },				
+		"Hardened resin": {
             "armorcheck": "-1",
             "bulk": "1",
             "cost": "1,200",
@@ -20161,6 +20620,23 @@ var equipmentData = {
         }
     },
     "Magic Items": {
+        "Hivemask": {
+            "bulk": "1",
+            "cost": "1,400",
+            "level": "3",
+            "sourcebook": "aa2",
+            "sourcepage": "p.49",
+            "usage": "move action"
+        },
+        "Shantak whistle": {
+            "bulk": "1",
+            "cost": "49,00",
+            "level": "13",
+            "sourcebook": "aa2",
+            "sourcepage": "p.111",
+            "usage": "once every 2 weeks"
+        },
+		
         "Aballonian drone box": {
             "bulk": "1",
             "cost": "24,500",
@@ -25425,6 +25901,57 @@ var equipmentData = {
         }
     },
     "Solarion Weapon Crystals": {
+        "Apocalypse crystal, shard": {
+            "bulk": "-",
+            "cost": "150",
+            "sourcebook": "aa2",
+            "level": "2",
+            "sourcepage": "p.81"
+        },
+        "Apocalypse crystal, least": {
+            "bulk": "-",
+            "cost": "3,050",
+            "sourcebook": "aa2",
+            "level": "5",
+            "sourcepage": "p.81"
+        },
+        "Apocalypse crystal, minor": {
+            "bulk": "-",
+            "cost": "9,500",
+            "sourcebook": "aa2",
+            "level": "8",
+            "sourcepage": "p.81"
+        },
+        "Apocalypse crystal, lesser": {
+            "bulk": "-",
+            "cost": "24,900",
+            "sourcebook": "aa2",
+            "level": "11",
+            "sourcepage": "p.81"
+        },
+        "Apocalypse crystal, standard": {
+            "bulk": "-",
+            "cost": "74,000",
+            "sourcebook": "aa2",
+            "level": "14",
+            "sourcepage": "p.81"
+        },
+        "Apocalypse crystal, greater": {
+            "bulk": "-",
+            "cost": "265,000",
+            "sourcebook": "aa2",
+            "level": "17",
+            "sourcepage": "p.81"
+        },
+        "Apocalypse crystal, true": {
+            "bulk": "-",
+            "cost": "776,000",
+            "sourcebook": "aa2",
+            "level": "20",
+            "sourcepage": "p.81"
+        },		
+		
+
         "Tauon Crystal (Greater)": {
             "bulk": "-",
             "cost": "48,400",
@@ -26331,6 +26858,18 @@ var equipmentData = {
             "special": "Relic", 
             "usage": "1 / hour"
         }, 
+        "Plasma diverter": {
+            "bulk": "1", 
+			"capacity": "-"
+            "cost": "4,300", 
+            "hands": "-", 
+            "level": "6", 
+            "sourcebook": "aa2", 
+            "sourcepage": "p.101", 
+            "special": "-", 
+            "usage": "-"
+        }, 
+		
         "Alert redirector": {
             "bulk": "-", 
             "capacity": "20", 
